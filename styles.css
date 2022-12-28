@@ -26,6 +26,10 @@ body {
   border-top: 2px solid grey;
 }
 
+.card {
+  background-color: rgb(3, 102, 102);
+}
+
 .content {
   width: 100%;
   height: 100%;
@@ -35,4 +39,24 @@ body {
   align-items: center;
   text-align: center;
   padding: 20px;
+}
+
+button {
+  width: 30vw;
+  margin: 4px;
+  padding: 5px;
+  background-color: rgb(108, 132, 132);
+  border: none;
+  color: azure;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: azure;
+  color: black;
+}
+
+button:focus {
+  outline: none;
+  transform: scale(1.2);
 }
